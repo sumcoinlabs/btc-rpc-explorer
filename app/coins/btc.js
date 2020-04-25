@@ -4,24 +4,24 @@ Decimal8 = Decimal.clone({ precision:8, rounding:8 });
 var currencyUnits = [
 	{
 		type:"native",
-		name:"BTC",
+		name:"SUM",
 		multiplier:1,
 		default:true,
-		values:["", "btc", "BTC"],
+		values:["", "sum", "SUM"],
 		decimalPlaces:8
 	},
 	{
 		type:"native",
-		name:"mBTC",
+		name:"mSUM",
 		multiplier:1000,
-		values:["mbtc"],
+		values:["msum"],
 		decimalPlaces:5
 	},
 	{
 		type:"native",
-		name:"bits",
+		name:"sigmas",
 		multiplier:1000000,
-		values:["bits"],
+		values:["sigmas"],
 		decimalPlaces:2
 	},
 	{
@@ -50,20 +50,20 @@ var currencyUnits = [
 ];
 
 module.exports = {
-	name:"Bitcoin",
-	ticker:"BTC",
+	name:"Sumcoin",
+	ticker:"SUM",
 	logoUrlsByNetwork:{
 		"main":"/img/logo/btc.svg",
 		"test":"/img/logo/tbtc.svg",
 		"regtest":"/img/logo/tbtc.svg"
 	},
 	siteTitlesByNetwork: {
-		"main":"Bitcoin Explorer",
+		"main":"Sumcoin Explorer",
 		"test":"Testnet Explorer",
 		"regtest":"Regtest Explorer"
 	},
-	siteDescriptionHtml:"<b>BTC Explorer</b> is <a href='https://github.com/janoside/btc-rpc-explorer). If you run your own [Bitcoin Full Node](https://bitcoin.org/en/full-node), **BTC Explorer** can easily run alongside it, communicating via RPC calls. See the project [ReadMe](https://github.com/janoside/btc-rpc-explorer) for a list of features and instructions for running.",
-	nodeTitle:"Bitcoin Full Node",
+	siteDescriptionHtml:"<b>SUM Explorer</b> is <a href='https://github.com/janoside/btc-rpc-explorer). If you run your own [Bitcoin Full Node](https://bitcoin.org/en/full-node), **BTC Explorer** can easily run alongside it, communicating via RPC calls. See the project [ReadMe](https://github.com/janoside/btc-rpc-explorer) for a list of features and instructions for running.",
+	nodeTitle:"Sumcoin Full Node",
 	nodeUrl:"https://bitcoin.org/en/full-node",
 	demoSiteUrl: "https://explorer.btc21.org",
 	miningPoolsConfigUrls:[
@@ -72,7 +72,7 @@ module.exports = {
 	],
 	maxBlockWeight: 4000000,
 	maxBlockSize: 1000000,
-	difficultyAdjustmentBlockCount: 2016,
+	difficultyAdjustmentBlockCount: 2880,
 	maxSupplyByNetwork: {
 		"main": new Decimal(20999817.31308491), // ref: https://bitcoin.stackexchange.com/a/38998
 		"test": new Decimal(21000000),
@@ -81,12 +81,12 @@ module.exports = {
 	targetBlockTimeSeconds: 600,
 	targetBlockTimeMinutes: 10,
 	currencyUnits:currencyUnits,
-	currencyUnitsByName:{"BTC":currencyUnits[0], "mBTC":currencyUnits[1], "bits":currencyUnits[2], "sat":currencyUnits[3]},
+	currencyUnitsByName:{"SUM":currencyUnits[0], "mSUM":currencyUnits[1], "sigmas":currencyUnits[2], "sumtoshi":currencyUnits[3]},
 	baseCurrencyUnit:currencyUnits[3],
 	defaultCurrencyUnit:currencyUnits[0],
 	feeSatoshiPerByteBucketMaxima: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 50, 75, 100, 150],
 	genesisBlockHashesByNetwork:{
-		"main":    "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+		"main":    "37d4696c5072cd012f3b7c651e5ce56a1383577e4edacc2d289ec9b25eebfd5e",
 		"test":    "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
 		"regtest": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"
 	},
@@ -274,12 +274,12 @@ module.exports = {
 	historicalData: [
 		{
 			type: "blockheight",
-			date: "2009-01-03",
+			date: "2019-04-06",
 			chain: "main",
 			blockHeight: 0,
-			blockHash: "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-			summary: "The Bitcoin Genesis Block.",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. This block was mined by Bitcoin's creator Satoshi Nakamoto. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
+			blockHash: "37d4696c5072cd012f3b7c651e5ce56a1383577e4edacc2d289ec9b25eebfd5e",
+			summary: "The Sumcoin Genesis Block.",
+			alertBodyHtml: "This is the first block in the Sumcoin blockchain, known as the 'Genesis Block'. This block was mined by Bitcoin's creator Satoshi Nakamoto. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
@@ -304,10 +304,10 @@ module.exports = {
 			type: "blockheight",
 			date: "2017-08-24",
 			chain: "main",
-			blockHeight: 481824,
+			blockHeight: 220,
 			blockHash: "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
 			summary: "First SegWit block.",
-			referenceUrl: "https://twitter.com/conio/status/900722226911219712"
+			referenceUrl: "https://twitter.com/sumcoinindex"
 		},
 		{
 			type: "tx",
@@ -324,15 +324,6 @@ module.exports = {
 			txid: "143a3d7e7599557f9d63e7f224f34d33e9251b2c23c38f95631b3a54de53f024",
 			summary: "Star Wars: A New Hope",
 			referenceUrl: ""
-		},
-		{
-			type: "tx",
-			date: "2010-05-22",
-			chain: "main",
-			txid: "a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d",
-			summary: "The 'Bitcoin Pizza' transaction.",
-			alertBodyHtml: "This is the famous 'Bitcoin Pizza' transaction.",
-			referenceUrl: "https://bitcointalk.org/index.php?topic=137.0"
 		},
 		{
 			type: "tx",
@@ -354,23 +345,6 @@ module.exports = {
 			referenceUrl: "https://bitcointalk.org/index.php?topic=91806.msg1012234#msg1012234"
 		},
 		{
-			type: "tx",
-			date: "2009-01-12",
-			chain: "main",
-			txid: "f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
-			summary: "The first transfer of bitcoin.",
-			alertBodyHtml: "This transaction represents the first ever transfer of bitcoin from one person to another. It also has the added distinction of being (one of?) the only known transfers of bitcoin from Satoshi Nakamoto, in this case sending bitcoin to Hal Finney as a test."
-		},
-		{
-			type: "blockheight",
-			date: "2017-08-25",
-			chain: "main",
-			blockHeight: 481947,
-			blockHash: "00000000000000000139cb443e16442fcd07a4a0e0788dd045ee3cf268982016",
-			summary: "First block mined that was greater than 1MB.",
-			referenceUrl: "https://en.bit.news/bitfury-mined-first-segwit-block-size-1-mb/"
-		},
-		{
 			type: "blockheight",
 			date: "2018-01-20",
 			chain: "main",
@@ -380,15 +354,6 @@ module.exports = {
 			referenceUrl: "https://twitter.com/BitGo/status/954998877920247808"
 		},
 		{
-			type: "tx",
-			date: "2017-12-30",
-			chain: "main",
-			txid: "9bf8853b3a823bbfa1e54017ae11a9e1f4d08a854dcce9f24e08114f2c921182",
-			summary: "Block reward lost",
-			alertBodyHtml: "This coinbase transaction completely fails to collect the block's mining reward. 12.5 BTC were lost.",
-			referenceUrl: "https://bitcoin.stackexchange.com/a/67012/3397"
-		},
-		{
 			type:"address",
 			date:"2011-12-03",
 			chain: "main",
@@ -396,15 +361,6 @@ module.exports = {
 			summary:"Brainwallet address for 'Satoshi Nakamoto'",
 			referenceUrl:"https://twitter.com/MrHodl/status/1041448002005741568",
 			alertBodyHtml:"This address was generated from the SHA256 hash of 'Satoshi Nakamoto' as example of the 'brainwallet' concept."
-		},
-		{
-			type: "tx",
-			date: "2010-11-14",
-			chain: "main",
-			txid: "e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468",
-			summary: "Duplicated coinbase transaction #1",
-			referenceUrl: "https://bitcoin.stackexchange.com/questions/38994/will-there-be-21-million-bitcoins-eventually/38998#38998",
-			alertBodyHtml: "This is one of 2 'duplicate coinbase' transactions. An early bitcoin bug (fixed by <a href='https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki'>BIP30</a>) allowed identical coinbase transactions - a newer duplicate would overwrite older copies. This transaction was the coinbase transaction for <a href='/block-height/91722'>Block #91,722</a> and, ~16 hours later, <a href='/block-height/91880'>Block #91,880</a>. The 50 BTC claimed as the coinbase for block 91,722 were also overwritten and lost."
 		},
 		{
 			type: "tx",
@@ -485,7 +441,7 @@ module.exports = {
 
 				return exchangeRates;
 			}
-			
+
 			return null;
 		}
 	},
@@ -496,7 +452,7 @@ module.exports = {
 			eras.push(new Decimal8(previous).dividedBy(2));
 		}
 
-		var halvingBlockInterval = (chain == "regtest" ? 150 : 210000);
+		var halvingBlockInterval = (chain == "regtest" ? 150 : 500000);
 		var index = Math.floor(blockHeight / halvingBlockInterval);
 
 		return eras[index];
