@@ -246,12 +246,12 @@
 	* Add output volume (if `getblockstats` rpc call is supported, i.e. 0.17.0+)
 	* Show %Full instead of weight/size
 * Block Detail page improvements
-	* New data in "Summary" on Block pages (supported for bitcoind v0.17.0+)
+	* New data in "Summary" on Block pages (supported for sumcoind v0.17.0+)
 		* Outputs total volume
 		* Input / Output counts
 		* UTXO count change
 		* Min / Max tx sizes
-	* New "Fees Summary" section (bitcoind v0.17.0+)
+	* New "Fees Summary" section (sumcoind v0.17.0+)
 		* Fee rate percentiles
 		* Fee rates: min, avg, max
 		* Fee totals: min, avg, max
@@ -314,7 +314,7 @@
 #### v1.1.3
 ###### 2019-12-02
 
-* Fixes related to running bitcoind 0.19.0.1
+* Fixes related to running sumcoind 0.19.0.1
 * Updated dependencies
 * Version number in footer
 * `/changelog` linked in footer
