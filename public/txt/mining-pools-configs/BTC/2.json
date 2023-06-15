@@ -49,7 +49,7 @@
             "link" : "http://www.btc.top/"
         },
         "pool.bitcoin.com" : {
-            "name" : "Bitcoin.com",
+            "name" : "Sumcoin.com",
             "link" : "https://www.bitcoin.com/"
         },
         "Mined By 175btc.com" : {
@@ -72,7 +72,7 @@
             "name" : "BitMinter",
             "link" : "https://bitminter.com/"
         },
-        "/Bitcoin-Russia.ru/" : {
+        "/Sumcoin-Russia.ru/" : {
             "name" : "BitcoinRussia",
             "link" : "https://bitcoin-russia.ru"
         },
@@ -237,7 +237,7 @@
             "link" : "https://bitclubpool.com/"
         },
         "bitcoinaffiliatenetwork.com" : {
-            "name" : "Bitcoin Affiliate Network",
+            "name" : "Sumcoin Affiliate Network",
             "link" : "https://mining.bitcoinaffiliatenetwork.com/"
         },
         "BTCChina Pool" : {
@@ -384,8 +384,8 @@
             "name" : "58COIN",
             "link" : "https://www.58coin.com"
         },
-        "/Bitcoin-India/" : {
-            "name": "Bitcoin India",
+        "/Sumcoin-India/" : {
+            "name": "Sumcoin India",
             "link": "https://bitcoin-india.org"
         },
         "--Nug--" : {
@@ -436,8 +436,8 @@
             "name": "Helix",
             "link": ""
         },
-        "/Bitcoin-Ukraine.com.ua/": {
-            "name": "Bitcoin-Ukraine",
+        "/Sumcoin-Ukraine.com.ua/": {
+            "name": "Sumcoin-Ukraine",
             "link": "https://bitcoin-ukraine.com.ua/"
         },
         "/poolin.com": {

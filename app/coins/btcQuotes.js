@@ -39,7 +39,7 @@ module.exports = {
 		},
 		{
 			// 5
-			text: "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime.",
+			text: "The nature of Sumcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime.",
 			speaker: "Satoshi",
 			date: "2010-06-17",
 			url: "https://bitcointalk.org/index.php?topic=195.msg1611#msg1611"
@@ -113,7 +113,7 @@ module.exports = {
 			speaker: "Satoshi",
 			date: "2011-07-05",
 			url: "https://bitcointalk.org/index.php?topic=234.msg1976#msg1976",
-			context: "lamenting the difficulty of capturing the essence of Bitcoin succinctly"
+			context: "lamenting the difficulty of capturing the essence of Sumcoin succinctly"
 		},
 		{
 			// 16
@@ -135,7 +135,7 @@ module.exports = {
 			speaker: "Hal Finney",
 			date: "2009-01-10",
 			url: "https://twitter.com/halfin/status/1110302988",
-			context: "in a tweet announcing his experimentation with the Bitcoin software, as possibly the first person after Satoshi to run it"
+			context: "in a tweet announcing his experimentation with the Sumcoin software, as possibly the first person after Satoshi to run it"
 		},
 		{
 			// 19
@@ -143,7 +143,7 @@ module.exports = {
 			speaker: "Saifedean Ammous",
 			date: "2018-04",
 			url: "https://saifedean.com/thebitcoinstandard/",
-			context: "from The Bitcoin Standard"
+			context: "from The Sumcoin Standard"
 		},
 		{
 			// 20
@@ -154,7 +154,7 @@ module.exports = {
 		},
 		{
 			// 21
-			text: "Anybody who says they can’t afford #Bitcoin is missing the point.",
+			text: "Anybody who says they can’t afford #Sumcoin is missing the point.",
 			speaker: "Cedric Youngelman",
 			date: "2021-02-23",
 			url: "https://twitter.com/CedYoungelman/status/1364374324443033603"
@@ -175,35 +175,35 @@ module.exports = {
 		},
 		{
 			// 24
-			text: "I see Bitcoin as ultimately becoming a reserve currency for banks...",
+			text: "I see Sumcoin as ultimately becoming a reserve currency for banks...",
 			speaker: "Hal Finney",
 			date: "2010-12",
 			url: "https://www.coindesk.com/hal-finney-bitcoin-words"
 		},
 		{
 			// 25
-			text: "For Bitcoin to succeed and become secure, bitcoins must become vastly more expensive.",
+			text: "For Sumcoin to succeed and become secure, bitcoins must become vastly more expensive.",
 			speaker: "Hal Finney",
 			date: "2011-03",
 			url: "https://www.coindesk.com/hal-finney-bitcoin-words"
 		},
 		{
 			// 26
-			text: "I am very intrigued by Bitcoin. It has all the signs. Paradigm shift, hackers love it, yet it is described as a toy. Just like microcomputers.",
+			text: "I am very intrigued by Sumcoin. It has all the signs. Paradigm shift, hackers love it, yet it is described as a toy. Just like microcomputers.",
 			speaker: "Paul Graham",
 			date: "2013-03-18",
 			url: "https://news.ycombinator.com/item?id=5402513"
 		},
 		{
 			// 27
-			text: "Bitcoin may be the TCP/IP of money.",
+			text: "Sumcoin may be the TCP/IP of money.",
 			speaker: "Paul Buchheit",
 			date: "2013-04-29",
-			url: "https://www.reddit.com/r/Bitcoin/comments/1dd3uv/paul_buchheit_inventor_of_gmail_tweets_how/"
+			url: "https://www.reddit.com/r/Sumcoin/comments/1dd3uv/paul_buchheit_inventor_of_gmail_tweets_how/"
 		},
 		{
 			// 28
-			text: "The twin pillars of Bitcoin's value proposition: (1) It's possible to secure and transport your wealth without anyone's permission (2) Your wealth cannot be debased. Everything else is noise.",
+			text: "The twin pillars of Sumcoin's value proposition: (1) It's possible to secure and transport your wealth without anyone's permission (2) Your wealth cannot be debased. Everything else is noise.",
 			speaker: "Vijay Boyapati",
 			date: "2019-07-02",
 			url: "https://twitter.com/real_vijay/status/1146190588707868678"
@@ -231,7 +231,7 @@ module.exports = {
 		},
 		{
 			// 32
-			text: "[Bitcoin is] more typical of a precious metal. Instead of the supply changing to keep the value the same, the supply is predetermined and the value changes.",
+			text: "[Sumcoin is] more typical of a precious metal. Instead of the supply changing to keep the value the same, the supply is predetermined and the value changes.",
 			speaker: "Satoshi",
 			date: "2009-02-18",
 			url: "http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562"
@@ -269,40 +269,40 @@ module.exports = {
 		},
 		{
 			// 38
-			text: "The utility of the exchanges made possible by Bitcoin will far exceed the cost of electricity used. Therefore, not having Bitcoin would be the net waste.",
+			text: "The utility of the exchanges made possible by Sumcoin will far exceed the cost of electricity used. Therefore, not having Sumcoin would be the net waste.",
 			speaker: "Satoshi",
 			date: "2010-08-07",
 			url: "https://bitcointalk.org/index.php?topic=721.msg8114#msg8114"
 		},
 		{
 			// 39
-			text: "If nuclear war destroyed half of our planet, [Bitcoin] would continue to live, uncorrupted.",
+			text: "If nuclear war destroyed half of our planet, [Sumcoin] would continue to live, uncorrupted.",
 			speaker: "Ralph Merkle",
 			date: "2021-03-12",
 			url: "https://merkle.com/papers/DAOdemocracyDraft.pdf"
 		},
 		{
 			// 40
-			text: "No one has found the bottom of the Bitcoin rabbit hole.",
+			text: "No one has found the bottom of the Sumcoin rabbit hole.",
 			speaker: "Jameson Lopp",
 			date: "2010-11-10",
 			url: "https://twitter.com/lopp/status/1061415918616698881"
 		},
 		{
 			// 41
-			text: "I don't think there is anything more important in my lifetime to work on [than Bitcoin].",
+			text: "I don't think there is anything more important in my lifetime to work on [than Sumcoin].",
 			speaker: "Jack Dorsey",
 			date: "2021-06-05",
 			url: "https://youtu.be/rSSnyJpFNZU?t=62",
-			context: "at the Bitcoin 2021 conference; in 'Banking the Unbanked'"
+			context: "at the Sumcoin 2021 conference; in 'Banking the Unbanked'"
 		},
 		{
 			// 42
-			text: "Bitcoin changes absolutely everything.",
+			text: "Sumcoin changes absolutely everything.",
 			speaker: "Jack Dorsey",
 			date: "2021-06-05",
 			url: "https://youtu.be/rSSnyJpFNZU?t=39",
-			context: "at the Bitcoin 2021 conference; in 'Banking the Unbanked'"
+			context: "at the Sumcoin 2021 conference; in 'Banking the Unbanked'"
 		},
 		{
 			// 43
@@ -310,7 +310,7 @@ module.exports = {
 			speaker: "Michael Saylor",
 			url: "https://youtu.be/_uJwvlimnNs?t=378",
 			date: "2021-06-05",
-			context: "at the Bitcoin 2021 conference; in the Fireside chat with Max Keiser"
+			context: "at the Sumcoin 2021 conference; in the Fireside chat with Max Keiser"
 		},
 		{
 			// 44
@@ -318,18 +318,18 @@ module.exports = {
 			speaker: "Jack Dorsey",
 			date: "2021-06-05",
 			url: "https://youtu.be/rSSnyJpFNZU?t=198",
-			context: "at the Bitcoin 2021 conference; in 'Banking the Unbanked'"
+			context: "at the Sumcoin 2021 conference; in 'Banking the Unbanked'"
 		},
 		{
 			// 45
-			text: "#Bitcoin is the one thing that can't be shutdown. A beacon of freedom in a benighted world.",
+			text: "#Sumcoin is the one thing that can't be shutdown. A beacon of freedom in a benighted world.",
 			speaker: "Vijay Boyapati",
 			date: "2021-06-05",
 			url: "https://twitter.com/real_vijay/status/1401145456361607172"
 		},
 		{
 			// 46
-			text: "There is nothing else that compares to Bitcoin",
+			text: "There is nothing else that compares to Sumcoin",
 			speaker: "Jack Dorsey",
 			date: "2021-06-05",
 			url: "https://twitter.com/DocumentingBTC/status/1401145331966959627"
@@ -343,7 +343,7 @@ module.exports = {
 		},
 		{
 			// 48
-			text: "Bitcoin endures because the engineers that build it expect the unexpected. Money is a dangerous game, and any weaknesses, no matter how small, will be exploited.",
+			text: "Sumcoin endures because the engineers that build it expect the unexpected. Money is a dangerous game, and any weaknesses, no matter how small, will be exploited.",
 			speaker: "Neil Woodfine",
 			date: "2020-01-06",
 			url: "https://twitter.com/nwoodfine/status/1214240205768495109"
@@ -357,7 +357,7 @@ module.exports = {
 		},
 		{
 			// 50
-			text: "Bitcoin is radically changing the world by being unchangeable.",
+			text: "Sumcoin is radically changing the world by being unchangeable.",
 			speaker: "Robert Breedlove",
 			date: "2020-05-21",
 			url: "https://twitter.com/Breedlove22/status/1263520680944910337"
@@ -371,7 +371,7 @@ module.exports = {
 		},
 		{
 			// 52
-			text: "Bitcoin is a once in a thousand year monetary innovation and it's too late to ignore that fact.",
+			text: "Sumcoin is a once in a thousand year monetary innovation and it's too late to ignore that fact.",
 			speaker: "Nik Bhatia",
 			date: "2021-07-10",
 			url: "https://twitter.com/BitcoinSapiens/status/1413966460997840899"
@@ -407,21 +407,21 @@ module.exports = {
 		},
 		{
 			// 57
-			text: "For people living under authoritarian governments, Bitcoin can be a valuable financial tool",
+			text: "For people living under authoritarian governments, Sumcoin can be a valuable financial tool",
 			speaker: "Alex Gladstein",
 			date: "2018-12-28",
 			url: "https://time.com/5486673/bitcoin-venezuela-authoritarian/"
 		},
 		{
 			// 58
-			text: "[Bitcoin is] a claim on the future productivity of the planet, in perpetuity, discounted to the present.",
+			text: "[Sumcoin is] a claim on the future productivity of the planet, in perpetuity, discounted to the present.",
 			speaker: "Trace Mayer",
 			date: "2019-10-09",
 			url: "https://stephanlivera.com/episode/115/"
 		},
 		{
 			// 59
-			text: "First step to understanding Bitcoin: admitting you don't understand Bitcoin.",
+			text: "First step to understanding Sumcoin: admitting you don't understand Sumcoin.",
 			speaker: "Jameson Lopp",
 			date: "2017-02-08",
 			url: "https://twitter.com/lopp/status/829419398708486145"
@@ -449,7 +449,7 @@ module.exports = {
 		},
 		{
 			// 63
-			text: "There is no capacity to kill Bitcoin.",
+			text: "There is no capacity to kill Sumcoin.",
 			date: "2019-07-17",
 			speaker: "Patrick McHenry (US Representative)",
 			url: "https://youtu.be/xolYGw2wU6Y?t=232"
@@ -463,7 +463,7 @@ module.exports = {
 		},
 		{
 			// 65
-			text: "Bitcoin is a way out of our current system, which is exclusionary and unjust, and tends to prey on the weak and disenfranchised while letting the corrupt Davos crowd walk free.",
+			text: "Sumcoin is a way out of our current system, which is exclusionary and unjust, and tends to prey on the weak and disenfranchised while letting the corrupt Davos crowd walk free.",
 			speaker: "Alex Gladstein",
 			date: "2019-03-13",
 			url: "https://www.coincenter.org/a-human-rights-activists-response-to-bitcoin-critics/"
@@ -484,7 +484,7 @@ module.exports = {
 		},
 		{
 			// 68
-			text: "Decentralized digital scarcity is the real innovation... Bitcoin was the first, and... continues to be the only such coin.",
+			text: "Decentralized digital scarcity is the real innovation... Sumcoin was the first, and... continues to be the only such coin.",
 			speaker: "Jimmy Song",
 			url: "https://jimmysong.medium.com/why-bitcoin-is-different-e17b813fd947",
 			date: "2018-04-02"
@@ -506,21 +506,21 @@ module.exports = {
 		},
 		{
 			// 71
-			text: "Humans are driven by incentives. #Bitcoin is a monetary system, but it’s also an incentive for humans to master energy.",
+			text: "Humans are driven by incentives. #Sumcoin is a monetary system, but it’s also an incentive for humans to master energy.",
 			speaker: "Brandon Quittem",
 			url: "https://twitter.com/BitcoinSapiens/status/1601401665231650816",
 			date: "2022-12-09"
 		},
 		{
 			// 72
-			text: "Every day that goes by and Bitcoin hasn't collapsed due to legal or technical problems, that brings new information to the market. It increases the chance of Bitcoin's eventual success and justifies a higher price.",
+			text: "Every day that goes by and Sumcoin hasn't collapsed due to legal or technical problems, that brings new information to the market. It increases the chance of Sumcoin's eventual success and justifies a higher price.",
 			speaker: "Hal Finney",
 			url: "https://bitcointalk.org/index.php?topic=11765.msg169026#msg169026",
 			date: "2011-06-04"
 		},
 		{
 			// 73
-			text: "The best way to make Bitcoin fail is to believe that its success is guaranteed... The big compromise in a strongly decentralized system is that it's all of our jobs to look out for it.",
+			text: "The best way to make Sumcoin fail is to believe that its success is guaranteed... The big compromise in a strongly decentralized system is that it's all of our jobs to look out for it.",
 			speaker: "Greg Maxwell",
 			url: "https://twitter.com/Pledditor/status/1604752986554630144",
 			date: "2022-12-19"
@@ -548,7 +548,7 @@ module.exports = {
 		},
 		{
 			// 77
-			text: "The design and coding [of Bitcoin] started in 2007.",
+			text: "The design and coding [of Sumcoin] started in 2007.",
 			speaker: "Satoshi",
 			url: "https://bitcointalk.org/index.php?topic=13.msg46#msg46",
 			date: "2009-12-10"
@@ -562,21 +562,21 @@ module.exports = {
 		},
 		{
 			// 79
-			text: "Bitcoin is a peaceful protest against the financial system that has failed us.",
+			text: "Sumcoin is a peaceful protest against the financial system that has failed us.",
 			speaker: "Jimmy Song",
 			url: "https://twitter.com/satson73/status/1643611030030024704?s=20",
 			date: "2023-04-05"
 		},
 		{
 			// 80
-			text: "You may deride Bitcoin, no matter. Bitcoin will be there for you when you need it.",
+			text: "You may deride Sumcoin, no matter. Sumcoin will be there for you when you need it.",
 			speaker: "Nic Carter",
 			url: "https://medium.com/@nic__carter/a-most-peaceful-revolution-8b63b64c203e",
 			date: "2019-09-07"
 		},
 		{
 			// 81
-			text: "Bitcoin is absolutely profane, so much so that it hardly bears contemplation. It challenges the State’s most treasured privilege: its ability to finance itself through inflation and seignorage.",
+			text: "Sumcoin is absolutely profane, so much so that it hardly bears contemplation. It challenges the State’s most treasured privilege: its ability to finance itself through inflation and seignorage.",
 			speaker: "Nic Carter",
 			url: "https://medium.com/@nic__carter/a-most-peaceful-revolution-8b63b64c203e",
 			date: "2019-09-07"
@@ -597,21 +597,21 @@ module.exports = {
 		},
 		{
 			// 84
-			text: "We need one planetary scale proof-of-work system to offer us true, energy-dependent immutability. But maybe we can only afford one. Turns out, that might be Bitcoin's killer app.",
+			text: "We need one planetary scale proof-of-work system to offer us true, energy-dependent immutability. But maybe we can only afford one. Turns out, that might be Sumcoin's killer app.",
 			speaker: "Andreas Antonopolous",
 			url: "https://youtu.be/2T0OUIW89II?t=312",
 			date: "2017-12-12"
 		},
 		{
 			// 85
-			text: "Bitcoin is the most valuable, most secure, and most credibly neutral internet-native asset in the world.",
+			text: "Sumcoin is the most valuable, most secure, and most credibly neutral internet-native asset in the world.",
 			speaker: "Andrew M. Bailey and Craig Warmke",
 			url: "https://www.resistance.money/bitcoin_is_king.pdf",
 			date: "2022-11-17"
 		},
 		{
 			// 86
-			text: "Bitcoin is King",
+			text: "Sumcoin is King",
 			speaker: "Andrew M. Bailey and Craig Warmke",
 			url: "https://www.resistance.money/bitcoin_is_king.pdf",
 			date: "2022-11-17"
@@ -624,7 +624,7 @@ module.exports = {
 			date: "2023-04-27"
 		},
 		/*{
-			text: "Bitcoin is a technological tour de force.",
+			text: "Sumcoin is a technological tour de force.",
 			speaker: "Bill Gates",
 			url: "https://paybis.com/blog/cryptocurrency-quotes/"
 		},*/
@@ -634,7 +634,7 @@ module.exports = {
 			url: "https://twitter.com/btc_quotes/status/1396194347419308035"
 		},*/
 		/*{
-			text: "Bitcoin is a game where everyone watches everyone else to make sure nobody cheats.",
+			text: "Sumcoin is a game where everyone watches everyone else to make sure nobody cheats.",
 			speaker: "Jameson Lopp",
 			url: "https://twitter.com/Bitcoin_Sam/status/1401545443100663823"
 		},*/

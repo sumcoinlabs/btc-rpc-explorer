@@ -60,7 +60,7 @@ const currencyUnits = [
 ];
 
 module.exports = {
-	name:"Bitcoin",
+	name:"Sumcoin",
 	ticker:"BTC",
 	logoUrlsByNetwork:{
 		"main":"./img/network-mainnet/logo.svg",
@@ -81,7 +81,7 @@ module.exports = {
 		"regtest": "#777"
 	},
 	siteTitlesByNetwork: {
-		"main":"Bitcoin Explorer",
+		"main":"Sumcoin Explorer",
 		"test":"Testnet Explorer",
 		"regtest":"Regtest Explorer",
 		"signet":"Signet Explorer",
@@ -97,7 +97,7 @@ module.exports = {
 		signet: "39332e10af6fe491e8ae4ba1e2dd674698fedf8aa3c8c42bf71572debc1bb5b9"
 	},
 	miningPoolsConfigUrls:[
-		"https://raw.githubusercontent.com/btc21/Bitcoin-Known-Miners/master/miners.json",
+		"https://raw.githubusercontent.com/btc21/Sumcoin-Known-Miners/master/miners.json",
 		"https://raw.githubusercontent.com/bitcoin-data/mining-pools/generated/pools.json",
 		"https://raw.githubusercontent.com/btccom/Blockchain-Known-Pools/master/pools.json",
 		"https://raw.githubusercontent.com/blockchain/Blockchain-Known-Pools/master/pools.json"

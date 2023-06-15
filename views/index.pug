@@ -1,7 +1,7 @@
 extends layout
 
 block headContent
-	title Bitcoin Explorer
+	title Sumcoin Explorer
 	
 block content
 
@@ -46,7 +46,7 @@ block content
 	else
 
 		+dismissableAlert("homepageWelcomeBannerDismissed")
-			h5 Bitcoin Explorer
+			h5 Sumcoin Explorer
 				span.fw-light :
 					span.fst-italic.ms-1 The free, open-source, easy-to-setup, easy-to-use, self-hosted explorer
 			
@@ -78,13 +78,13 @@ block content
 
 				if (blocksLeft > 0)
 					+blockCountdown("Taproot Activation", blocksLeft)
-						.mb-2 The softfork known as Taproot will activate on Bitcoin's mainnet at block height 709,632. After activation, any Bitcoin user will be able to use a new address type that enables new features and functionality. The Taproot upgrade has been ~4 years in the making!
+						.mb-2 The softfork known as Taproot will activate on Sumcoin's mainnet at block height 709,632. After activation, any Sumcoin user will be able to use a new address type that enables new features and functionality. The Taproot upgrade has been ~4 years in the making!
 						| Read more about Taproot's history from Pieter Wuille (one of its architects) <a href="https://twitter.com/pwuille/status/1403725170993336322">here</a>.
 
 				else if (blocksLeft <= 0 && blocksLeft > -144)
 					.alert.alert-success
 						h5 Taproot: Activation Height Reached 🎉
-						| Taproot has activated on Bitcoin's mainnet as of block height <a href="./block-height/709632">709,632</a>!
+						| Taproot has activated on Sumcoin's mainnet as of block height <a href="./block-height/709632">709,632</a>!
 				
 
 		if (getblockchaininfo.initialblockdownload && !["regtest", "signet"].includes(global.activeBlockchain))

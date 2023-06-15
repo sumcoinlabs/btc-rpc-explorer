@@ -1,6 +1,6 @@
 # BTC RPC Explorer
 
-## Self-Hosted Bitcoin explorer for everyone running [Bitcoin Core](https://github.com/bitcoin/bitcoin).
+## Self-Hosted Sumcoin explorer for everyone running [Sumcoin Core](https://github.com/bitcoin/bitcoin).
 
 [![npm version][npm-ver-img]][npm-ver-url] [![NPM downloads][npm-dl-alltime-img]][npm-dl-url]
 
@@ -12,13 +12,13 @@
 
 
 
-This is a self-hosted explorer for the Bitcoin blockchain, driven by RPC calls to your own [Bitcoin](https://github.com/bitcoin/bitcoin) node. It is easy to run and can be connected to other tools (like Electrum servers) to achieve a full-featured explorer.
+This is a self-hosted explorer for the Sumcoin blockchain, driven by RPC calls to your own [Sumcoin](https://github.com/bitcoin/bitcoin) node. It is easy to run and can be connected to other tools (like Electrum servers) to achieve a full-featured explorer.
 
 Whatever reasons you may have for running a full node (trustlessness, technical curiosity, supporting the network, etc) it's valuable to appreciate the *fullness* of your node. With this explorer, you can explore not just the blockchain database, but also explore all of the functional capabilities of your own node.
 
 Live demos:
 
-* [BitcoinExplorer.org](https://bitcoinexplorer.org) / [testnet](https://testnet.bitcoinexplorer.org) / [signet](https://signet.bitcoinexplorer.org)
+* [suminsight.com](https://bitcoinexplorer.org) / [testnet](https://testnet.bitcoinexplorer.org) / [signet](https://signet.bitcoinexplorer.org)
 
 
 # Features
@@ -43,14 +43,14 @@ See [CHANGELOG.md](/CHANGELOG.md).
 
 ## Prerequisites
 
-1. Install `Bitcoin Core` - [instructions](https://bitcoin.org/en/full-node). Ensure that `Bitcoin Core`'s' RPC server is enabled (`server=1`).
-2. Allow `Bitcoin Core` to synchronize with the Bitcoin network (you *can* use this tool while sychronizing, but some pages may fail).
+1. Install `Sumcoin Core` - [instructions](https://bitcoin.org/en/full-node). Ensure that `Sumcoin Core`'s' RPC server is enabled (`server=1`).
+2. Allow `Sumcoin Core` to synchronize with the Sumcoin network (you *can* use this tool while sychronizing, but some pages may fail).
 3. Install Node.js (16+ required, 18+ recommended).
 
 ### Note about pruning and indexing configurations
 
 This tool is designed to work best with full transaction indexing enabled (`txindex=1`) and pruning **disabled**. 
-However, if you're running Bitcoin Core v0.21+ you can run *without* `txindex` enabled and/or *with* `pruning` enabled and this tool will continue to function, but some data will be incomplete or missing. Also note that such Bitcoin Core configurations receive less thorough testing.
+However, if you're running Sumcoin Core v0.21+ you can run *without* `txindex` enabled and/or *with* `pruning` enabled and this tool will continue to function, but some data will be incomplete or missing. Also note that such Sumcoin Core configurations receive less thorough testing.
 
 In particular, with `pruning` enabled and/or `txindex` disabled, the following functionality is altered:
 
@@ -118,7 +118,7 @@ btc-rpc-explorer --port 8080 --bitcoind-port 18443 --bitcoind-cookie ~/.bitcoin/
 
 #### Demo site settings
 
-To match the features visible on the demo site at [BitcoinExplorer.org](https://bitcoinexplorer.org) you'll need to set the following non-default configuration values:
+To match the features visible on the demo site at [suminsight.com](https://bitcoinexplorer.org) you'll need to set the following non-default configuration values:
 
     BTCEXP_DEMO=true 		# enables some demo/informational aspects of the site
     BTCEXP_NO_RATES=false		# enables querying of exchange rate data

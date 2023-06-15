@@ -6,8 +6,8 @@ module.exports = {
 			chain: "main",
 			blockHeight: 0,
 			blockHash: "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-			summary: "Bitcoin Genesis Block",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the <b>Genesis Block</b>. This block was mined by Bitcoin's creator <b>Satoshi Nakamoto</b>.<br/>Read more here: <a href='https://en.bitcoin.it/wiki/Genesis_block'>bitcoin.it/wiki/Genesis_block</a>.",
+			summary: "Sumcoin Genesis Block",
+			alertBodyHtml: "This is the first block in the Sumcoin blockchain, known as the <b>Genesis Block</b>. This block was mined by Sumcoin's creator <b>Satoshi Nakamoto</b>.<br/>Read more here: <a href='https://en.bitcoin.it/wiki/Genesis_block'>bitcoin.it/wiki/Genesis_block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
@@ -17,7 +17,7 @@ module.exports = {
 			txid: "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
 			blockHeight: 0,
 			summary: "Coinbase transaction of the Genesis Block",
-			alertBodyHtml: "This transaction doesn't really exist! This is the <b>coinbase transaction</b> of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Bitcoin</a> developers.",
+			alertBodyHtml: "This transaction doesn't really exist! This is the <b>coinbase transaction</b> of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Sumcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Sumcoin</a> developers.",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/issues/3303"
 		},
 		{
@@ -27,7 +27,7 @@ module.exports = {
 			txid: "e411dbebd2f7d64dafeef9b14b5c59ec60c36779d43f850e5e347abee1e1a455",
 			blockHeight: 71036,
 			summary: "Early transaction with MANY (4,000+) OP_CHECKSIG commands, before this DoS vector was fixed",
-			alertBodyHtml: "Multiple transactions in Block #71,036, including this one, included MANY OP_CHECKSIG commands, causing nodes to perform unnecessary work, and helped identify a possible denial-of-service (DoS) attack. A new version of Bitcoin was quickly released. The new version did not cause a fork on the main network, though it did cause one on the test network (where someone had played around with the attack more)." ,
+			alertBodyHtml: "Multiple transactions in Block #71,036, including this one, included MANY OP_CHECKSIG commands, causing nodes to perform unnecessary work, and helped identify a possible denial-of-service (DoS) attack. A new version of Sumcoin was quickly released. The new version did not cause a fork on the main network, though it did cause one on the test network (where someone had played around with the attack more)." ,
 			referenceUrl: "https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5138"
 		},
 		{
@@ -46,7 +46,7 @@ module.exports = {
 			chain: "main",
 			address:"37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
 			summary:"SHA1 collision bounty",
-			alertBodyHtml:"This address corresponds to a Bitcoin Script (<span class='font-data'>6e879169a77ca787</span>) that allows anyone who can demonstrate a SHA1 collision to spend from it. On September 13, 2013 this address was funded as a SHA1-collision bounty and it continued to accumulate 'bounty donations' for over 2 years when, on February 23, 2017 a total of 1.62 BTC were spent from this address in <a href='./tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc'>8d31992805...</a>.",
+			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169a77ca787</span>) that allows anyone who can demonstrate a SHA1 collision to spend from it. On September 13, 2013 this address was funded as a SHA1-collision bounty and it continued to accumulate 'bounty donations' for over 2 years when, on February 23, 2017 a total of 1.62 BTC were spent from this address in <a href='./tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc'>8d31992805...</a>.",
 			referenceUrl:"https://bitcointalk.org/index.php?topic=293382.0"
 		},
 		{
@@ -55,7 +55,7 @@ module.exports = {
 			chain: "main",
 			address:"35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
 			summary:"SHA256 collision bounty",
-			alertBodyHtml:"This address corresponds to a Bitcoin Script (<span class='font-data'>6e879169a87ca887</span>) that allows anyone who can demonstrate a SHA256 collision to spend from it. On September 13, 2013 this address was funded as a SHA256-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
+			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169a87ca887</span>) that allows anyone who can demonstrate a SHA256 collision to spend from it. On September 13, 2013 this address was funded as a SHA256-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
 			referenceUrl:"https://bitcointalk.org/index.php?topic=293382.0"
 		},
 		{
@@ -64,7 +64,7 @@ module.exports = {
 			chain: "main",
 			address:"3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
 			summary:"RIPEMD160 collision bounty",
-			alertBodyHtml:"This address corresponds to a Bitcoin Script (<span class='font-data'>6e879169a67ca687</span>) that allows anyone who can demonstrate a RIPEMD160 collision to spend from it. On September 13, 2013 this address was funded as a RIPEMD160-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
+			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169a67ca687</span>) that allows anyone who can demonstrate a RIPEMD160 collision to spend from it. On September 13, 2013 this address was funded as a RIPEMD160-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
 			referenceUrl:"https://bitcointalk.org/index.php?topic=293382.0"
 		},
 		{
@@ -73,7 +73,7 @@ module.exports = {
 			chain: "main",
 			address:"39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
 			summary:"RIPEMD160(SHA256()) collision bounty",
-			alertBodyHtml:"This address corresponds to a Bitcoin Script (<span class='font-data'>6e879169a97ca987</span>) that allows anyone who can demonstrate a RIPEMD160(SHA256()) collision to spend from it. On September 13, 2013 this address was funded as a RIPEMD160(SHA256())-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
+			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169a97ca987</span>) that allows anyone who can demonstrate a RIPEMD160(SHA256()) collision to spend from it. On September 13, 2013 this address was funded as a RIPEMD160(SHA256())-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
 			referenceUrl:"https://bitcointalk.org/index.php?topic=293382.0"
 		},
 		{
@@ -82,7 +82,7 @@ module.exports = {
 			chain: "main",
 			address:"3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
 			summary:"SHA256(SHA256()) collision bounty",
-			alertBodyHtml:"This address corresponds to a Bitcoin Script (<span class='font-data'>6e879169aa7caa87</span>) that allows anyone who can demonstrate a SHA256(SHA256()) collision to spend from it. On September 13, 2013 this address was funded as a SHA256(SHA256())-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
+			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169aa7caa87</span>) that allows anyone who can demonstrate a SHA256(SHA256()) collision to spend from it. On September 13, 2013 this address was funded as a SHA256(SHA256())-collision bounty. It has continued to accumulate 'bounty donations' for 7+ years and, as of this writing (April 2021), the bounty remains uncollected.",
 			referenceUrl:"https://bitcointalk.org/index.php?topic=293382.0"
 		},
 		{
@@ -164,8 +164,8 @@ module.exports = {
 			chain: "main",
 			txid: "a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d",
 			blockHeight: 57043,
-			summary: "The \"Bitcoin Pizza\" transaction",
-			alertBodyHtml: "This is the famous \"Bitcoin Pizza\" transaction, one of the earliest real-world transactions, in which 10,000 BTC was paid for 2 large pizzas worth ~41 USD (at an effective exchange rate of ~$0.004/BTC).",
+			summary: "The \"Sumcoin Pizza\" transaction",
+			alertBodyHtml: "This is the famous \"Sumcoin Pizza\" transaction, one of the earliest real-world transactions, in which 10,000 BTC was paid for 2 large pizzas worth ~41 USD (at an effective exchange rate of ~$0.004/BTC).",
 			referenceUrl: "https://bitcointalk.org/index.php?topic=137.0"
 		},
 		{
@@ -177,7 +177,7 @@ module.exports = {
 			summary: "Midnightmagic's 'Missing Satoshi' (provably lost/destroyed bitcoin)",
 			alertBodyHtml: "The miner of block <a href='./block-height/124724'>124,724</a> (<a href='https://bitcointalk.org/index.php?action=profile;u=2759'>midnightmagic on BitcoinTalk</a>) deliberately underpaid themselves 1 satoshi from the block subsidy (in addition to deliberately ignoring the fees for transactions included in that block). The 'missing satoshi' (to use midnight magic's words), was a tribute to Satoshi's disappearance.",
 			referenceUrl: "https://bitcointalk.org/index.php?topic=7253.msg184414#msg184414",
-			referenceUrl2: "https://www.reddit.com/r/Bitcoin/comments/7mhoks/til_in_2011_a_user_running_a_modified_mining/"
+			referenceUrl2: "https://www.reddit.com/r/Sumcoin/comments/7mhoks/til_in_2011_a_user_running_a_modified_mining/"
 		},
 		{
 			type: "blockheight",
@@ -298,8 +298,8 @@ module.exports = {
 			chain: "main",
 			txid: "54e48e5f5c656b26c3bca14a8c95aa583d07ebe84dde3b7dd4a78f4e4186e713",
 			blockHeight: 230009,
-			summary: "Bitcoin whitepaper, embedded in the Bitcoin blockchain",
-			alertBodyHtml: "This transaction encodes the Bitcoin whitepaper PDF in 945 of its 947 outputs. You can view the PDF, decoded from data served by your own node here: <a href='./bitcoin-whitepaper'>bitcoin whitepaper</a>. Or read more about the technical details - ",
+			summary: "Sumcoin whitepaper, embedded in the Sumcoin blockchain",
+			alertBodyHtml: "This transaction encodes the Sumcoin whitepaper PDF in 945 of its 947 outputs. You can view the PDF, decoded from data served by your own node here: <a href='./bitcoin-whitepaper'>bitcoin whitepaper</a>. Or read more about the technical details - ",
 			referenceUrl: "https://bitcoin.stackexchange.com/questions/35959/how-is-the-whitepaper-decoded-from-the-blockchain-tx-with-1000x-m-of-n-multisi"
 		},
 		{
@@ -309,7 +309,7 @@ module.exports = {
 			address: "1Hf2CKoVDyPj7dNn3vgTeFMgDqVvbVNZQq",
 			url: "./address/1Hf2CKoVDyPj7dNn3vgTeFMgDqVvbVNZQq?sort=asc&limit=2&offset=11",
 			summary: "Transaction output values used to encode botnet command-and-control IP address",
-			alertBodyHtml: "Two of the transactions sent to this address encode the IP address of a botnet's command-and-control server. Using the censorship-resistant Bitcoin network to serve this data makes the botnet more resistant to takedown. The output value '6957' (in transaction <a href='./tx/35ef7fa5dd1e4d572279a74a83082bd3e77a0c3a468723b5def5d014ed634e84'>35ef7fa5dd…</a>) and the output value '36305' (in transaction <a href='./tx/3a1fcdea5495fb3a1aa410772860afd7841ba8830ffc0ab474d4d69458244e42'>3a1fcdea54…</a>) combine to encode the IPv4 address '209.141.45.27'.",
+			alertBodyHtml: "Two of the transactions sent to this address encode the IP address of a botnet's command-and-control server. Using the censorship-resistant Sumcoin network to serve this data makes the botnet more resistant to takedown. The output value '6957' (in transaction <a href='./tx/35ef7fa5dd1e4d572279a74a83082bd3e77a0c3a468723b5def5d014ed634e84'>35ef7fa5dd…</a>) and the output value '36305' (in transaction <a href='./tx/3a1fcdea5495fb3a1aa410772860afd7841ba8830ffc0ab474d4d69458244e42'>3a1fcdea54…</a>) combine to encode the IPv4 address '209.141.45.27'.",
 			referenceUrl: "https://arstechnica.com/information-technology/2021/02/crooks-use-the-bitcoin-blockchain-to-protect-their-botnets-from-takedown/"
 		},
 				{
@@ -339,7 +339,7 @@ module.exports = {
 			blockHeight: 668197,
 			blockHash: "000000000000000000023c31edf49adb2306d0db74e6f1f032ef76deaa7a464a",
 			summary: "In retrospect, it was inevitable",
-			alertBodyHtml: "Shortly before a $1B+ USD Tesla treasury investment into Bitcoin was announced, Elon Musk updated his Twitter profile to just say '#Bitcoin' and cryptically tweeted 'It was inevitable'. Miner 'yhc5t3p' with F2Pool immortalized the tweet soon after.",
+			alertBodyHtml: "Shortly before a $1B+ USD Tesla treasury investment into Sumcoin was announced, Elon Musk updated his Twitter profile to just say '#Sumcoin' and cryptically tweeted 'It was inevitable'. Miner 'yhc5t3p' with F2Pool immortalized the tweet soon after.",
 			referenceUrl: "https://twitter.com/elonmusk/status/1355068728128516101"
 		},
 		{
@@ -358,8 +358,8 @@ module.exports = {
 			chain: "main",
 			blockHeight: 686604,
 			blockHash: "0000000000000000000ccaca16c648fc1a2dce9749af651f9bf3ab2e778980a9",
-			summary: "Diario El Salvador 6/Jun/2021 Bitcoin tendra validez legal",
-			alertBodyHtml: "Immortalizing the proposed legislation in El Salvador to classify bitcoin as legal tender in the country (a bill written in collaboration with <a href='https://Strike.me'>Strike.me</a>) Slush Pool embedded the headline: 'Diario El Salvador 6/Jun/2021 Bitcoin tendra validez legal'.",
+			summary: "Diario El Salvador 6/Jun/2021 Sumcoin tendra validez legal",
+			alertBodyHtml: "Immortalizing the proposed legislation in El Salvador to classify bitcoin as legal tender in the country (a bill written in collaboration with <a href='https://Strike.me'>Strike.me</a>) Slush Pool embedded the headline: 'Diario El Salvador 6/Jun/2021 Sumcoin tendra validez legal'.",
 			referenceUrl: "https://twitter.com/slush_pool/status/1401763623417098243"
 		},
 		{
@@ -388,7 +388,7 @@ module.exports = {
 			chain: "main",
 			txid: "777c998695de4b7ecec54c058c73b2cab71184cf1655840935cd9388923dc288",
 			blockHeight: 709632,
-			summary: "First *post-activation* Pay-to-Taproot (P2TR) transaction in Bitcoin's history",
+			summary: "First *post-activation* Pay-to-Taproot (P2TR) transaction in Sumcoin's history",
 			alertBodyHtml: "Saluting the network's upgrade with a cheerful OP_RETURN message 'gm taproot 🥕', <a href='https://twitter.com/FedericoTenga'>@FedericoTenga</a> overpaid by ~3.3x (a fee rate of ~2,500 sat/vB) for the historic honor of sending the first (post-activation) mainnet Pay-to-Taproot (P2TR) transaction. (Note that there exist several quirky pre-activation P2TR outputs, including <a href='./tx/b53e3bc5edbb41b34a963ecf67eb045266cf841cab73a780940ce6845377f141'>the true 'first-ever' P2TR output</a>.)",
 			referenceUrl: "https://twitter.com/FedericoTenga/status/1459755752080519168"
 		},
@@ -418,7 +418,7 @@ module.exports = {
 			txid: "b10c007c60e14f9d087e0291d4d0c7869697c6681d979c6639dbd960792b4d41",
 			blockHeight: 692261,
 			summary: "First experimental (pre-activation) mainnet SPEND (!) of a Pay-to-Taproot (P2TR) output",
-			alertBodyHtml: "This interesting transaction exists in the blockchain only because of special coordination with F2Pool. Because this transaction spends Pay-to-Taproot outputs, and because it was created before Taproot activation, it was considered \"non-standard\" and would not be relayed across the Bitcoin network, despite technically being valid. Therefore, as a technical demonstration, <a href='https://b10c.me'>https://b10c.me</a> coordinated with F2Pool to mine this non-standard transaction, wherein the P2TR outputs were effectively anyone-can-spend outputs.",
+			alertBodyHtml: "This interesting transaction exists in the blockchain only because of special coordination with F2Pool. Because this transaction spends Pay-to-Taproot outputs, and because it was created before Taproot activation, it was considered \"non-standard\" and would not be relayed across the Sumcoin network, despite technically being valid. Therefore, as a technical demonstration, <a href='https://b10c.me'>https://b10c.me</a> coordinated with F2Pool to mine this non-standard transaction, wherein the P2TR outputs were effectively anyone-can-spend outputs.",
 			referenceUrl: "https://b10c.me/blog/007-spending-p2tr-pre-activation/"
 		},
 		{
@@ -477,7 +477,7 @@ module.exports = {
 			txid: "73be398c4bdc43709db7398106609eea2a7841aaf3a4fa2000dc18184faa2a7e",
 			blockHeight: 761249,
 			summary: "@brqgoo's (second) LND-breaking transaction",
-			alertBodyHtml: "This transaction caused grief for multiple Bitcoin software projects (including this one...) It's a very large transaction that includes a huge number of empty input-script witness items. The underlying issue was inconsistency in handling of stack size relating to OP_SUCCESSx opcodes.",
+			alertBodyHtml: "This transaction caused grief for multiple Sumcoin software projects (including this one...) It's a very large transaction that includes a huge number of empty input-script witness items. The underlying issue was inconsistency in handling of stack size relating to OP_SUCCESSx opcodes.",
 			referenceUrl: "https://github.com/btcsuite/btcd/issues/1906"
 		},
 		{
@@ -497,7 +497,7 @@ module.exports = {
 			txid: "7a2a6f66e87ed4e72d85ba7a82eda1572605c3330c461e171f58d7ff2763ac63",
 			blockHeight: 136881,
 			summary: "Mt Gox's 'Proof of Solvency' transaction",
-			alertBodyHtml: "In order to address solvency concerns, early Bitcoin exchange Mt Gox performed a very large, public transaction from one of their addresses to another, thereby proving ownership of the large balance of coins (424,242.42424242 BTC).",
+			alertBodyHtml: "In order to address solvency concerns, early Sumcoin exchange Mt Gox performed a very large, public transaction from one of their addresses to another, thereby proving ownership of the large balance of coins (424,242.42424242 BTC).",
 			referenceUrl: "https://letstalkbitcoin.com/the-ghost-in-the-machine-at-mtgox"
 		},
 		{
@@ -517,7 +517,7 @@ module.exports = {
 			txid: "6f7cf9580f1c2dfb3c4d5d043cdbb128c640e3f20161245aa7372e9666168516",
 			blockHeight: 728,
 			summary: "First send to a Pay-to-Public Key Hash (P2PKH) address",
-			alertBodyHtml: "This is the first send to a P2PKH Bitcoin address. Before this transaction, all outputs had been sent to P2PK outputs.",
+			alertBodyHtml: "This is the first send to a P2PKH Sumcoin address. Before this transaction, all outputs had been sent to P2PK outputs.",
 			referenceUrl: "https://unchained.com/blog/bitcoin-address-types-compared/"
 		},
 		{
@@ -580,8 +580,8 @@ module.exports = {
 			chain: "test",
 			blockHeight: 0,
 			blockHash: "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
-			summary: "The Bitcoin (testnet) Genesis Block",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
+			summary: "The Sumcoin (testnet) Genesis Block",
+			alertBodyHtml: "This is the first block in the Sumcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
@@ -591,7 +591,7 @@ module.exports = {
 			txid: "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
 			blockHeight: 0,
 			summary: "The coinbase transaction of the Genesis Block",
-			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Bitcoin</a> developers.",
+			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Sumcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Sumcoin</a> developers.",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/issues/3303"
 		},
 
@@ -603,8 +603,8 @@ module.exports = {
 			chain: "regtest",
 			blockHeight: 0,
 			blockHash: "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-			summary: "The Bitcoin (regtest) Genesis Block",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
+			summary: "The Sumcoin (regtest) Genesis Block",
+			alertBodyHtml: "This is the first block in the Sumcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
@@ -614,7 +614,7 @@ module.exports = {
 			txid: "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
 			blockHeight: 0,
 			summary: "The coinbase transaction of the Genesis Block",
-			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Bitcoin</a> developers.",
+			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Sumcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Sumcoin</a> developers.",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/issues/3303"
 		}
 	]

@@ -822,16 +822,16 @@
       "name": "BitFury",
       "link": "https://bitfury.com"
     },
-    "/Bitcoin-India/": {
+    "/Sumcoin-India/": {
       "name": "BitcoinIndia",
       "link": "https://bitcoin-india.org"
     },
-    "/Bitcoin-Russia.ru/": {
+    "/Sumcoin-Russia.ru/": {
       "name": "BitcoinRussia",
       "link": "https://bitcoin-russia.ru"
     },
-    "/Bitcoin-Ukraine.com.ua/": {
-      "name": "Bitcoin-Ukraine",
+    "/Sumcoin-Ukraine.com.ua/": {
+      "name": "Sumcoin-Ukraine",
       "link": "https://bitcoin-ukraine.com.ua"
     },
     "/Bitfury/": {
@@ -1255,7 +1255,7 @@
       "link": "https://pool.binance.com"
     },
     "bitcoinaffiliatenetwork.com": {
-      "name": "Bitcoin Affiliate Network",
+      "name": "Sumcoin Affiliate Network",
       "link": "https://mining.bitcoinaffiliatenetwork.com"
     },
     "bitparking": {
@@ -1331,7 +1331,7 @@
       "link": "https://ozcoin.net"
     },
     "pool.bitcoin.com": {
-      "name": "Bitcoin.com",
+      "name": "Sumcoin.com",
       "link": "https://www.bitcoin.com"
     },
     "simplecoin": {

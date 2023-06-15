@@ -1,7 +1,7 @@
 {
 	"name": "btc-rpc-explorer",
 	"version": "3.4.0",
-	"description": "Open-source, self-hosted Bitcoin explorer",
+	"description": "Open-source, self-hosted Sumcoin explorer",
 	"private": false,
 	"bin": "bin/cli.js",
 	"scripts": {
