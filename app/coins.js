@@ -3,7 +3,7 @@
 const btc = require("./coins/btc.js");
 
 module.exports = {
-	"BTC": btc,
+	"SUM": btc,
 
-	"coins":["BTC"]
+	"coins":["SUM"]
 };

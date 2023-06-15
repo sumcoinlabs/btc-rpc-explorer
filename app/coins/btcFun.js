@@ -37,7 +37,7 @@ module.exports = {
 			txid: "7dff938918f07619abd38e4510890396b1cef4fbeca154fb7aafba8843295ea2",
 			blockHeight: 24835,
 			summary: "First bitcoin traded for fiat currency",
-			alertBodyHtml: "In this first-known BTC-to-fiat transaction, 5,050 BTC were exchanged for 5.02 USD, at an effective exchange rate of ~0.001 USD/BTC.",
+			alertBodyHtml: "In this first-known SUM-to-fiat transaction, 5,050 SUM were exchanged for 5.02 USD, at an effective exchange rate of ~0.001 USD/SUM.",
 			referenceUrl: "https://twitter.com/marttimalmi/status/423455561703624704"
 		},
 		{
@@ -46,7 +46,7 @@ module.exports = {
 			chain: "main",
 			address:"37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
 			summary:"SHA1 collision bounty",
-			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169a77ca787</span>) that allows anyone who can demonstrate a SHA1 collision to spend from it. On September 13, 2013 this address was funded as a SHA1-collision bounty and it continued to accumulate 'bounty donations' for over 2 years when, on February 23, 2017 a total of 1.62 BTC were spent from this address in <a href='./tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc'>8d31992805...</a>.",
+			alertBodyHtml:"This address corresponds to a Sumcoin Script (<span class='font-data'>6e879169a77ca787</span>) that allows anyone who can demonstrate a SHA1 collision to spend from it. On September 13, 2013 this address was funded as a SHA1-collision bounty and it continued to accumulate 'bounty donations' for over 2 years when, on February 23, 2017 a total of 1.62 SUM were spent from this address in <a href='./tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc'>8d31992805...</a>.",
 			referenceUrl:"https://bitcointalk.org/index.php?topic=293382.0"
 		},
 		{
@@ -100,7 +100,7 @@ module.exports = {
 			chain: "main",
 			blockHeight: 210000,
 			blockHash: "000000000000048b95347e83192f69cf0366076336c639f9b7228e9ba171342e",
-			summary: "First block of subsidy era #2 (25 BTC)",
+			summary: "First block of subsidy era #2 (25 SUM)",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1240"
 		},
 		{
@@ -119,7 +119,7 @@ module.exports = {
 			chain: "main",
 			blockHeight: 420000,
 			blockHash: "000000000000000002cce816c0ab2c5c269cb081896b7dcb34b8422d6b74ffa1",
-			summary: "First block of subsidy era #3 (12.5 BTC)",
+			summary: "First block of subsidy era #3 (12.5 SUM)",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1240"
 		},
 		{
@@ -128,7 +128,7 @@ module.exports = {
 			chain: "main",
 			blockHeight: 630000,
 			blockHash: "000000000000000000024bead8df69990852c202db0e0097c1a12ea637d7e96d",
-			summary: "First block of subsidy era #4 (6.25 BTC)",
+			summary: "First block of subsidy era #4 (6.25 SUM)",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1240"
 		},
 		{
@@ -138,7 +138,7 @@ module.exports = {
 			blockHeight: 629999,
 			blockHash: "0000000000000000000d656be18bb095db1b23bd797266b0ac3ba720b1962b1e",
 			summary: "'Times 09/Apr/2020 With $2.3T Injection, Fed's Plan Far Exceeds 2008 Rescue'",
-			alertBodyHtml: "With the coinbase message 'Times 09/Apr/2020 With $2.3T Injection, Fed's Plan Far Exceeds 2008 Rescue', this final block of subsidy era #3 (12.5 BTC) echoes the spiritual call-to-action of <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Satoshi's genesis block</a>.",
+			alertBodyHtml: "With the coinbase message 'Times 09/Apr/2020 With $2.3T Injection, Fed's Plan Far Exceeds 2008 Rescue', this final block of subsidy era #3 (12.5 SUM) echoes the spiritual call-to-action of <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Satoshi's genesis block</a>.",
 		},
 		{
 			type: "tx",
@@ -165,7 +165,7 @@ module.exports = {
 			txid: "a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d",
 			blockHeight: 57043,
 			summary: "The \"Sumcoin Pizza\" transaction",
-			alertBodyHtml: "This is the famous \"Sumcoin Pizza\" transaction, one of the earliest real-world transactions, in which 10,000 BTC was paid for 2 large pizzas worth ~41 USD (at an effective exchange rate of ~$0.004/BTC).",
+			alertBodyHtml: "This is the famous \"Sumcoin Pizza\" transaction, one of the earliest real-world transactions, in which 10,000 SUM was paid for 2 large pizzas worth ~41 USD (at an effective exchange rate of ~$0.004/SUM).",
 			referenceUrl: "https://bitcointalk.org/index.php?topic=137.0"
 		},
 		{
@@ -223,7 +223,7 @@ module.exports = {
 			txid: "9bf8853b3a823bbfa1e54017ae11a9e1f4d08a854dcce9f24e08114f2c921182",
 			blockHeight: 501726,
 			summary: "Block reward lost",
-			alertBodyHtml: "This coinbase transaction completely fails to collect the block's mining reward. 12.5 BTC were lost.",
+			alertBodyHtml: "This coinbase transaction completely fails to collect the block's mining reward. 12.5 SUM were lost.",
 			referenceUrl: "https://bitcoin.stackexchange.com/a/67012/3397"
 		},
 		{
@@ -243,7 +243,7 @@ module.exports = {
 			blockHeight: 91880,
 			summary: "Duplicated coinbase transaction #1",
 			referenceUrl: "https://bitcoin.stackexchange.com/questions/38994/will-there-be-21-million-bitcoins-eventually/38998#38998",
-			alertBodyHtml: "This is one of 2 'duplicate coinbase' transactions. An early bitcoin bug (fixed by <a href='https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki'>BIP30</a>) allowed identical coinbase transactions - a newer duplicate would overwrite older copies. This transaction was the coinbase transaction for <a href='./block-height/91722'>Block #91,722</a> and, ~16 hours later, <a href='./block-height/91880'>Block #91,880</a>. The 50 BTC claimed as the coinbase for block 91,722 were also overwritten and lost."
+			alertBodyHtml: "This is one of 2 'duplicate coinbase' transactions. An early bitcoin bug (fixed by <a href='https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki'>BIP30</a>) allowed identical coinbase transactions - a newer duplicate would overwrite older copies. This transaction was the coinbase transaction for <a href='./block-height/91722'>Block #91,722</a> and, ~16 hours later, <a href='./block-height/91880'>Block #91,880</a>. The 50 SUM claimed as the coinbase for block 91,722 were also overwritten and lost."
 		},
 		{
 			type: "tx",
@@ -253,7 +253,7 @@ module.exports = {
 			blockHeight: 91842,
 			summary: "Duplicated coinbase transaction #2",
 			referenceUrl: "https://bitcoin.stackexchange.com/questions/38994/will-there-be-21-million-bitcoins-eventually/38998#38998",
-			alertBodyHtml: "This is one of 2 'duplicate coinbase' transactions. An early bitcoin bug (fixed by <a href='https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki'>BIP30</a>) allowed identical coinbase transactions - a newer duplicate would overwrite older copies. This transaction was the coinbase transaction for <a href='./block-height/91812'>Block #91,812</a> and, ~3 hours later, <a href='./block-height/91842'>Block #91,842</a>. The 50 BTC claimed as the coinbase for block 91,812 were also overwritten and lost."
+			alertBodyHtml: "This is one of 2 'duplicate coinbase' transactions. An early bitcoin bug (fixed by <a href='https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki'>BIP30</a>) allowed identical coinbase transactions - a newer duplicate would overwrite older copies. This transaction was the coinbase transaction for <a href='./block-height/91812'>Block #91,812</a> and, ~3 hours later, <a href='./block-height/91842'>Block #91,842</a>. The 50 SUM claimed as the coinbase for block 91,812 were also overwritten and lost."
 		},
 		{
 			type: "tx",
@@ -270,7 +270,7 @@ module.exports = {
 			txid: "cb1440c787d8a46977886405a34da89939e1b04907f567bf182ef27ce53a8d71",
 			blockHeight: 631058,
 			summary: "Very old coins (mined ~1 month after genesis) move unexpectedly, causing uproar",
-			alertBodyHtml: "On May 5, 2020, 50 BTC mined on Feb 9, 2009 (~1 month after Satoshi mined the Genesis block), moved unexpectedly after being dormant for 11+ years. Some observers wondered if they were coins from Satoshi's stash (they likely <a href='https://twitter.com/zackvoell/status/1263120133054255104'>were not</a>) and got excited.",
+			alertBodyHtml: "On May 5, 2020, 50 SUM mined on Feb 9, 2009 (~1 month after Satoshi mined the Genesis block), moved unexpectedly after being dormant for 11+ years. Some observers wondered if they were coins from Satoshi's stash (they likely <a href='https://twitter.com/zackvoell/status/1263120133054255104'>were not</a>) and got excited.",
 			referenceUrl: "https://twitter.com/WhalePanda/status/1263120678380867586"
 		},
 		{
@@ -278,8 +278,8 @@ module.exports = {
 			date: "2020-07-15",
 			chain: "main",
 			address: "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
-			summary: "July 2020 Twitter hack BTC address",
-			alertBodyHtml: "On July 15, 2020 a hack involving many prominent Twitter accounts, including Elon Musk's, Bill Gates', and Cash App's, scammed many people to send BTC to this address.",
+			summary: "July 2020 Twitter hack SUM address",
+			alertBodyHtml: "On July 15, 2020 a hack involving many prominent Twitter accounts, including Elon Musk's, Bill Gates', and Cash App's, scammed many people to send SUM to this address.",
 			referenceUrl: "https://twitter.com/lawmaster/status/1283694581926723585"
 		},
 		{
@@ -289,7 +289,7 @@ module.exports = {
 			txid: "29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf",
 			blockHeight: 153509,
 			summary: "Current largest output transaction",
-			alertBodyHtml: "This transaction from November 2011 spends 11 UTXOs worth 50,000 BTC to create a single 550,000 BTC UTXO. This is currently the largest output transaction.",
+			alertBodyHtml: "This transaction from November 2011 spends 11 UTXOs worth 50,000 SUM to create a single 550,000 SUM UTXO. This is currently the largest output transaction.",
 			referenceUrl: "https://blockchair.com/bitcoin/transactions?s=output_total(desc)#"
 		},
 		{
@@ -457,7 +457,7 @@ module.exports = {
 			txid: "37d5ec4bca7bd077992a6dd8679ab676a22986e63ebaf2c6ea1aebe5e5f5e817",
 			blockHeight: 718448,
 			summary: "Unspendable output due to invalid public key",
-			alertBodyHtml: "The Script for Output #0 of this transaction has a public key that does not conform to the <a href='https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki#Public_Key_Generation'>BIP-340</a> specification (\"Schnorr Signatures for secp256k1\"). The value assinged to this output (0.0002 BTC) is therefore burned forever.",
+			alertBodyHtml: "The Script for Output #0 of this transaction has a public key that does not conform to the <a href='https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki#Public_Key_Generation'>BIP-340</a> specification (\"Schnorr Signatures for secp256k1\"). The value assinged to this output (0.0002 SUM) is therefore burned forever.",
 			referenceUrl: "https://suredbits.com/taproot-funds-burned-on-the-bitcoin-blockchain/"
 		},
 		{
@@ -497,7 +497,7 @@ module.exports = {
 			txid: "7a2a6f66e87ed4e72d85ba7a82eda1572605c3330c461e171f58d7ff2763ac63",
 			blockHeight: 136881,
 			summary: "Mt Gox's 'Proof of Solvency' transaction",
-			alertBodyHtml: "In order to address solvency concerns, early Sumcoin exchange Mt Gox performed a very large, public transaction from one of their addresses to another, thereby proving ownership of the large balance of coins (424,242.42424242 BTC).",
+			alertBodyHtml: "In order to address solvency concerns, early Sumcoin exchange Mt Gox performed a very large, public transaction from one of their addresses to another, thereby proving ownership of the large balance of coins (424,242.42424242 SUM).",
 			referenceUrl: "https://letstalkbitcoin.com/the-ghost-in-the-machine-at-mtgox"
 		},
 		{
@@ -507,7 +507,7 @@ module.exports = {
 			txid: "6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799",
 			blockHeight: 767430,
 			summary: "Ordinals Inscription #0",
-			alertBodyHtml: "A controversial 'digital artifact' project named Ordinals embeds content, named 'inscriptions', in the witness fields of transactions. This transaction includes the first such inscription, a PNG image, ever embedded in the mainnet BTC blockchain.",
+			alertBodyHtml: "A controversial 'digital artifact' project named Ordinals embeds content, named 'inscriptions', in the witness fields of transactions. This transaction includes the first such inscription, a PNG image, ever embedded in the mainnet SUM blockchain.",
 			referenceUrl: "https://ordinals.com/inscription/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0"
 		},
 		{

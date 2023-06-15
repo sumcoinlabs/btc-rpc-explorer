@@ -200,7 +200,7 @@ module.exports = {
 		{
 			"category":"price",
 			"url":"/price",
-			"desc":"Returns the price of 1 BTC, in USD, EUR, GBP, and XAU",
+			"desc":"Returns the price of 1 SUM, in USD, EUR, GBP, and XAU",
 			"optionalParams": {
 				"format":"Set to 'true' to include thousands-separator formatting in results"
 			}

@@ -16,12 +16,12 @@
             "name": "1THash",
             "link": "https://www.1thash.top"
         },
-        "/BTC.COM/" : {
-            "name" : "BTC.com",
+        "/SUM.COM/" : {
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
-        "/BTC.com/" : {
-            "name" : "BTC.com",
+        "/SUM.com/" : {
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "BITFARMS": {
@@ -36,7 +36,7 @@
             "name": "Huobi.pool",
             "link": "https://www.hpt.com/"
         },
-        "/E2M & BTC.TOP/": {
+        "/E2M & SUM.TOP/": {
             "name": "WAYI.CN",
             "link": "http://www.easy2mine.com/"
         },
@@ -44,8 +44,8 @@
             "name": "CanoePool",
             "link": "https://www.canoepool.com/"
         },
-        "/BTC.TOP/": {
-            "name" : "BTC.TOP",
+        "/SUM.TOP/": {
+            "name" : "SUM.TOP",
             "link" : "http://www.btc.top/"
         },
         "pool.bitcoin.com" : {
@@ -84,8 +84,8 @@
             "name" : "simplecoin.us",
             "link" : "http://simplecoin.us/"
         },
-        "BTC Guild" : {
-            "name" : "BTC Guild",
+        "SUM Guild" : {
+            "name" : "SUM Guild",
             "link" : "http://www.btcguild.com/"
         },
         "Eligius" : {
@@ -569,11 +569,11 @@
             "link": "https://okminer.com/"
         },
         "btccom" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "btccomf" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "/pegapool/" : {
@@ -663,7 +663,7 @@
             "link" : "https://eclipsemc.com/"
         },
         "1BwZeHJo7b7M2op7VDfYnsmcpXsUYEcVHm" : {
-            "name" : "BTC Nuggets",
+            "name" : "SUM Nuggets",
             "link" : "http://104.197.8.250/"
         },
         "1KFHE7w8BhaENAswwryaoccDb6qcT6DbYY" : {
@@ -775,7 +775,7 @@
             "link" : "https://pool.btcc.com/"
         },
         "1PmRrdp1YSkp1LxPyCfcmBHDEipG5X4eJB" : {
-            "name" : "BTC Pool Party",
+            "name" : "SUM Pool Party",
             "link" : "https://btcpoolparty.com/"
         },
         "1Hk9gD8xMo2XBUhE73y5zXEM8xqgffTB5f" : {
@@ -811,7 +811,7 @@
             "link" : "https://nexious.com/"
         },
         "1AePMyovoijxvHuKhTqWvpaAkRCF4QswC6" : {
-            "name" : "Tricky's BTC Pool",
+            "name" : "Tricky's SUM Pool",
             "link" : "http://pool.wemine.uk/"
         },
         "17judvK4AC2M6KhaBbAEGw8CTKc9Pg8wup" : {
@@ -847,23 +847,23 @@
             "link" : "http://patelsminingpool.com/"
         },
         "3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "34qkc2iac6RsyxZVfyE2S5U5WcRsbg2dpK" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "bc1qjl8uwezzlech723lpnyuza0h2cdkvxvh54v3dn" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "1Bf9sZvBHPFGVPX71WX2njhd1NXKv5y7v5" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "18EPLvrs2UE11kWBB3ABS7Crwj5tTBYPoa" : {
@@ -943,7 +943,7 @@
             "link" : "https://www.brainofshawn.com"
         },
         "1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ" : {
-            "name" : "BTC.TOP",
+            "name" : "SUM.TOP",
             "link" : "http://btc.top"
         },
         "1Afcpc2FpPnREU6i52K3cicmHdvYRAH9Wo" : {
@@ -1295,7 +1295,7 @@
             "link": "https://terrapool.io"
         },
         "36cWgjEtxQSFgbHTJDw5AB96ZX7fJk1URd" : {
-            "name" : "BTC.com",
+            "name" : "SUM.com",
             "link" : "https://pool.btc.com"
         },
         "1BGFwRzjCfRR7EvRHnzfHyFjGR8XiBDFKa" : {

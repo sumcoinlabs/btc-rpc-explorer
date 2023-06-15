@@ -343,14 +343,14 @@ function satoshisPerUnitOfLocalCurrency(localCurrency) {
 		let one = new Decimal(1);
 		dec = dec.times(global.exchangeRates[exchangeType]);
 		
-		// USD/BTC -> BTC/USD
+		// USD/SUM -> SUM/USD
 		dec = one.dividedBy(dec);
 
 		let unitName = coins[config.coin].baseCurrencyUnit.name;
 		let satCurrencyType = global.currencyTypes["sat"];
 		let localCurrencyType = global.currencyTypes[localCurrency];
 
-		// BTC/USD -> sat/USD
+		// SUM/USD -> sat/USD
 		dec = dec.times(satCurrencyType.multiplier);
 
 		let exchangedAmt = parseInt(dec);

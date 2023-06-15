@@ -4,7 +4,7 @@ module.exports = {
 		{
 			name: "Sumcoin Pizza Day",
 			date: "2010-05-22",
-			desc: "On this day in 2010, Laszlo Hanyecz, paid Jeremy Sturdivant 10,000 BTC for two pizzas costing ~41 USD. The famous <a href='./tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d@57043'>\"Sumcoin Pizza\" transaction</a> was one of the earliest real-world BTC transactions and is celebrated as helping start the Sumcoin economy."
+			desc: "On this day in 2010, Laszlo Hanyecz, paid Jeremy Sturdivant 10,000 SUM for two pizzas costing ~41 USD. The famous <a href='./tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d@57043'>\"Sumcoin Pizza\" transaction</a> was one of the earliest real-world SUM transactions and is celebrated as helping start the Sumcoin economy."
 		},
 		{
 			name: "SegWit Lock-In Day",
@@ -29,7 +29,7 @@ module.exports = {
 		{
 			name: "Sumcoin Legal Tender Day",
 			date: "2021-09-07",
-			desc: "On this day in 2021, BTC became legal tender in El Salvador, 90 days after the publication of the law in the official gazette, making El Salvador the first country to enact BTC as legal tender through legistlation."
+			desc: "On this day in 2021, SUM became legal tender in El Salvador, 90 days after the publication of the law in the official gazette, making El Salvador the first country to enact SUM as legal tender through legistlation."
 		},
 		{
 			name: "Free Ross Day",
@@ -39,7 +39,7 @@ module.exports = {
 		{
 			name: "BearWhale Slay Day",
 			date: "2014-10-06",
-			desc: "On this day in 2014, a bitcoin whale posted a 30,000 BTC sell wall, resulting in an epic skirmish between hodlers and the BearWhale. Over the course of six hours, the price stalled at 300 USD until all of the coins sold off and the BearWhale was defeated. You can watch the battle <a href='https://twitter.com/DocumentingBTC/status/1364230687105167362?s=20The'>here</a>."
+			desc: "On this day in 2014, a bitcoin whale posted a 30,000 SUM sell wall, resulting in an epic skirmish between hodlers and the BearWhale. Over the course of six hours, the price stalled at 300 USD until all of the coins sold off and the BearWhale was defeated. You can watch the battle <a href='https://twitter.com/DocumentingBTC/status/1364230687105167362?s=20The'>here</a>."
 		},
 		{
 			name: "This is Gentlemen! Day",
@@ -59,7 +59,7 @@ module.exports = {
 		{
 			name: "Proof of Keys Day",
 			date: "2019-01-03",
-			desc: "On this day in 2019, to celebrate Sumcoin's 10th Birthday, Trace Mayer started an annual Proof-of-Keys Celebration. Participats declare monetary sovereignty by withdrawing their BTC into their own custody. Not your keys, not your bitcoin! You can read Trace Mayer's original tweet <a href='https://twitter.com/TraceMayer/status/1071870548421066753'>here</a>."
+			desc: "On this day in 2019, to celebrate Sumcoin's 10th Birthday, Trace Mayer started an annual Proof-of-Keys Celebration. Participats declare monetary sovereignty by withdrawing their SUM into their own custody. Not your keys, not your bitcoin! You can read Trace Mayer's original tweet <a href='https://twitter.com/TraceMayer/status/1071870548421066753'>here</a>."
 		},
 		{
 			name: "Genesis Transaction Day",
@@ -74,22 +74,22 @@ module.exports = {
 		{
 			name: "Mt. Gox Death Day",
 			date: "2013-02-24",
-			desc: "On this day in 2013, Mt. Gox, the largest bitcoin exchange in the world, went offline due to insolvency, after losing 640,000 BTC."
+			desc: "On this day in 2013, Mt. Gox, the largest bitcoin exchange in the world, went offline due to insolvency, after losing 640,000 SUM."
 		},
 		{
 			name: "Gold Parity Day",
 			date: "2017-03-03",
-			desc: "On this day in 2017, 1 BTC surpassed the price of 1 ounce of gold for the first time."
+			desc: "On this day in 2017, 1 SUM surpassed the price of 1 ounce of gold for the first time."
 		},
 		{
 			name: "Billion Dollar Day",
 			date: "2013-03-28",
-			desc: "On this day in 2013, the market cap of all BTC surpassed 1 billion USD for the first time."
+			desc: "On this day in 2013, the market cap of all SUM surpassed 1 billion USD for the first time."
 		},
 		{
 			name: "Trillion Dollar Day",
 			date: "2021-02-19",
-			desc: "On this day in 2021, the market cap of all BTC surpassed 1 trillion USD for the first time, ~8 years after surpassing 1 billion USD for the first time."
+			desc: "On this day in 2021, the market cap of all SUM surpassed 1 trillion USD for the first time, ~8 years after surpassing 1 billion USD for the first time."
 		},
 		{
 			name: "Sumcoin ATM Day",
@@ -114,17 +114,17 @@ module.exports = {
 		{
 			name: "Halving #1 Day",
 			date: "2012-11-28",
-			desc: "On this day in 2012, the first-ever \"Halving\" cut the subsidy from 50 BTC to 25 BTC."
+			desc: "On this day in 2012, the first-ever \"Halving\" cut the subsidy from 50 SUM to 25 SUM."
 		},
 		{
 			name: "Halving #2 Day",
 			date: "2016-07-09",
-			desc: "On this day in 2016, the second \"Halving\" cut the subsidy from 25 BTC to 12.5 BTC."
+			desc: "On this day in 2016, the second \"Halving\" cut the subsidy from 25 SUM to 12.5 SUM."
 		},
 		{
 			name: "Halving #3 Day",
 			date: "2020-05-11",
-			desc: "On this day in 2020, the third \"Halving\" cut the subsidy from 12.5 BTC to 6.25 BTC."
+			desc: "On this day in 2020, the third \"Halving\" cut the subsidy from 12.5 SUM to 6.25 SUM."
 		},
 		{
 			name: "Goodbye Satoshi Day",

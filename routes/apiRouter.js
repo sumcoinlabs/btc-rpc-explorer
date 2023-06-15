@@ -168,7 +168,7 @@ router.get("/tx/:txid", asyncHandler(async (req, res, next) => {
 
 		outJson.fee = {
 			"amount": (inputBtc - outputBtc) / global.coinConfig.baseCurrencyUnit.multiplier,
-			"unit": "BTC"
+			"unit": "SUM"
 		};
 
 		if (outJson.confirmations == null) {

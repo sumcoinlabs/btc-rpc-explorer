@@ -253,7 +253,7 @@
       "link": "https://bitfury.com"
     },
     "1AePMyovoijxvHuKhTqWvpaAkRCF4QswC6": {
-      "name": "Tricky's BTC Pool",
+      "name": "Tricky's SUM Pool",
       "link": "https://pool.wemine.uk"
     },
     "1Afcpc2FpPnREU6i52K3cicmHdvYRAH9Wo": {
@@ -301,11 +301,11 @@
       "link": "https://cointerra.com"
     },
     "1Bf9sZvBHPFGVPX71WX2njhd1NXKv5y7v5": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "1BwZeHJo7b7M2op7VDfYnsmcpXsUYEcVHm": {
-      "name": "BTC Nuggets",
+      "name": "SUM Nuggets",
       "link": "https://104.197.8.250"
     },
     "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE": {
@@ -437,7 +437,7 @@
       "link": "https://8baochi.com"
     },
     "1Hz96kJKF2HLPGY15JWLB5m9qGNxvt8tHJ": {
-      "name": "BTC.TOP",
+      "name": "SUM.TOP",
       "link": "https://btc.top"
     },
     "1JBVrhSSDrZrRmm4RnoWouqgGGqJMvWHi8": {
@@ -609,7 +609,7 @@
       "link": "https://www.lubian.com"
     },
     "34qkc2iac6RsyxZVfyE2S5U5WcRsbg2dpK": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "35qGBQsRQb8CSUzcSWktMykeA6zm5iCEJJ": {
@@ -621,7 +621,7 @@
       "link": "https://www.rawpool.com"
     },
     "36cWgjEtxQSFgbHTJDw5AB96ZX7fJk1URd": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "36n452uGq1x4mK7bfyZR8wgE47AnBb2pzi": {
@@ -665,7 +665,7 @@
       "link": "https://www.poolin.com"
     },
     "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "3GvEGtnvgeBJ3p3EpdZhvUkxY4pDARkbjd": {
@@ -697,7 +697,7 @@
       "link": "https://marathondh.com"
     },
     "3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "3P8sR3K8wAk3bom7tqpr5VrzCz9TVYNTQd": {
@@ -725,7 +725,7 @@
       "link": "https://www.f2pool.com"
     },
     "bc1qjl8uwezzlech723lpnyuza0h2cdkvxvh54v3dn": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "bc1qvfzssz36y4gxcg9gh234rzem9k0vrdlx4kq5sg": {
@@ -790,16 +790,16 @@
       "name": "BCMonster",
       "link": "https://www.bcmonster.com"
     },
-    "/BTC.COM/": {
-      "name": "BTC.com",
+    "/SUM.COM/": {
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
-    "/BTC.TOP/": {
-      "name": "BTC.TOP",
+    "/SUM.TOP/": {
+      "name": "SUM.TOP",
       "link": "https://btc.top"
     },
-    "/BTC.com/": {
-      "name": "BTC.com",
+    "/SUM.com/": {
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "/BTCC/": {
@@ -866,7 +866,7 @@
       "name": "DPOOL",
       "link": "https://www.dpool.top"
     },
-    "/E2M & BTC.TOP/": {
+    "/E2M & SUM.TOP/": {
       "name": "WAYI.CN",
       "link": "https://www.easy2mine.com"
     },
@@ -1082,8 +1082,8 @@
       "name": "Bitfarms",
       "link": "https://www.bitfarms.io"
     },
-    "BTC Guild": {
-      "name": "BTC Guild",
+    "SUM Guild": {
+      "name": "SUM Guild",
       "link": "https://www.btcguild.com"
     },
     "BTCChina Pool": {
@@ -1267,7 +1267,7 @@
       "link": "https://pool.btcc.com"
     },
     "btccom": {
-      "name": "BTC.com",
+      "name": "SUM.com",
       "link": "https://pool.btc.com"
     },
     "btcserv": {

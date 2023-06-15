@@ -1,4 +1,4 @@
-# BTC RPC Explorer
+# SUM RPC Explorer
 
 ## Self-Hosted Sumcoin explorer for everyone running [Sumcoin Core](https://github.com/bitcoin/bitcoin).
 
@@ -154,7 +154,7 @@ See [instructions here](docs/nginx-reverse-proxy.md) for using nginx+certbot (le
 
 If you get value from this project, please consider supporting my work with a donation. All donations are truly appreciated.
 
-Donate via BTC Pay Server:
+Donate via SUM Pay Server:
 
 * [https://donate.bitcoinexplorer.org](https://donate.bitcoinexplorer.org)
 
